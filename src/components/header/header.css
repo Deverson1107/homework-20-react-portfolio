@@ -1,0 +1,23 @@
+.topbar {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: floralwhite;
+    background-color: black;
+    font-size: 18px;
+}
+
+.titlename {
+    font-size: 40px;
+}
+
+.titlejob {
+    font-size: 18px;
+}
+
+a:link, a:visited  {
+    color: grey;
+    text-decoration: none;
+}
+
+.pagelink:hover {
+    color: floralwhite;
+}
