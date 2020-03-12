@@ -10,7 +10,8 @@ function Header() {
         </div>
         <div className="col-lg-4 col-md-12 text-center pt-3 pb-1">
             <a className="px-3 pagelink">PORTFOLIO</a>
-            <a className="px-3 pagelink">ABOUT</a>  
+            <a className="px-3 pagelink">ABOUT</a>
+            <a className="px-3 pagelink">CONTACT</a>   
         </div>
     </header>
     );
