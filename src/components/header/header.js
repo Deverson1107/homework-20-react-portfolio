@@ -1,7 +1,9 @@
 import React from "react";
+import { Link, useLocation } from "react-router-dom";
 import  "./header.css"
 
 function Header() {
+    const location = useLocation();
     return (
         <header className="row pt-5 pb-0 topbar text-center">
         <div className="col-lg-5 col-md-12 pb-2 offset-lg-1">
@@ -9,9 +11,15 @@ function Header() {
             <a className="list-inline-item titlejob">| Full Stack Web Developer |</a>
         </div>
         <div className="col-lg-4 col-md-12 text-center pt-3 pb-1">
-            <a className="px-3 pagelink">PORTFOLIO</a>
-            <a className="px-3 pagelink">ABOUT</a>
-            <a className="px-3 pagelink">CONTACT</a>   
+        <Link to="/" className={location.pathname === "/" || "/portfolio" ? "pagelink mr-3" : "pagelink"}>
+          PORTFOLIO
+        </Link>
+        <Link to="/about" className={location.pathname === "/about" ? "pagelink mr-3" : "pagelink mr-3"}>
+          ABOUT
+        </Link>
+        <Link to="/contact" className={location.pathname === "/contact" ? "pagelink" : "pagelink"}>
+          CONTACT
+        </Link> 
         </div>
     </header>
     );

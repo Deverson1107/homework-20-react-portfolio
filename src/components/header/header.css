@@ -13,8 +13,8 @@
     font-size: 18px;
 }
 
-a:link, a:visited  {
-    color: grey;
+.pagelink:link, .pagelink:visited  {
+    color: rgb(179, 179, 179);
     text-decoration: none;
 }
 
