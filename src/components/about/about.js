@@ -5,7 +5,7 @@ function About() {
     return (
         <div>
             <div className="row px-4 topic">
-                <h3 className="pt-4 pb-3 ml-5">ABOUT ME</h3>
+                <h3 className="pt-4 pb-3 ml-lg-5">ABOUT ME</h3>
             </div>    
         
             <div className="py-3 px-2">

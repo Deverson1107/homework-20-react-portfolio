@@ -13,7 +13,7 @@ function App() {
       <Router>
         <Header />
         <div className="row justify-content-center">
-          <div className="col-8 mb-5">
+          <div className="col-lg-8 mb-5">
             <Route exact path="/" component={Portfolio} />
             <Route exact path="/portfolio" component={Portfolio} />
             <Route exact path="/about" component={About} />
